@@ -34,6 +34,7 @@ By the end of this final project, we achieved the following:
 <center>
     <img src="results/img/two-channel-KDI-inputs.png" alt="two-channel-KDI input format" width="850"/>
 </center>
+
 * we constructed a couple model structures (for both of the embedding layers, as well as the concat output layer, refer to details [here](notebook/Model_Architecture_List.ipynb)) that perform relatively well: 
     * training loss (MAE) = 57.72 (in milliseconds)
     * validation loss (MAE) = 47.04 (in milliseconds)
