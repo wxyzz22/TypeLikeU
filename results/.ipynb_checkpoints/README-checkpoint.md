@@ -1,0 +1,7 @@
+### __** This folder contains summaries and results of the project **__
+
+In this folder, we collected the results of our experiments, the poster for the project, and our final report.
+
+* The `experiments_tracking_details` folder contains the _.xlsx_ files (stored in _.html_ for better viewing experience) of our experiment summaries. For a more detailed description of each of the file contained in the folder, refer to the [this README](experiments_tracking_details/README.md). 
+
+* The `img` folder contains all the pictures used in the final report.
