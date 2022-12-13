@@ -8,11 +8,11 @@ This is the repository containing code and results of our final project for the 
 ### Navigating the Repo
 The details of our final project are organized into four folders and a `helper.py` file in this repository. Here are some brief descriptions of each to help with navigation:
 
-* The `data` folder: contains sample datasets that we used in the project. They are all sub-samples from the open-source dataset provided [here](https://userinterfaces.aalto.fi/136Mkeystrokes/). For a more detailed description of files in the folder, refer to `data/README.md`.
+* The `data` folder: contains sample datasets that we used in the project. They are all sub-samples from the open-source dataset provided [here](https://userinterfaces.aalto.fi/136Mkeystrokes/). For a more detailed description of files in the folder, refer to [this README](data/README.md).
 
-* The `logs` folder: contains model training logs, including tensorboard records, checkpoint file, and train-val loss plots. For a more detailed description of files in the folder, refer to `logs/README.md`.
+* The `logs` folder: contains model training logs, including tensorboard records, checkpoint file, and train-val loss plots. For a more detailed description of files in the folder, refer to [this README](logs/README.md).
 
-* The `notebook` folder: since our experiments are performed over the Google Colab platform for higher RAM space and better GPUs availability, most of our development codes for preprocessing, model structures, model trainings and etc. are all stored in notebooks. In particular, we also included a [_data_exploration.ipynb_](notebook/data_exploration.ipynb) notebook to provide a quick feel of our dataset. For a more detailed description of files in the folder, refer to `notebook/README.md`.
+* The `notebook` folder: since our experiments are performed over the Google Colab platform for higher RAM space and better GPUs availability, most of our development codes for preprocessing, model structures, model trainings and etc. are all stored in notebooks. In particular, we also included a [_data_exploration.ipynb_](notebook/data_exploration.ipynb) notebook to provide a quick feel of our dataset. For a more detailed description of files in the folder, refer to [this README](notebook/README.md).
 
 * The `results` folder: contains our [final report](results/report.ipynb), [final poster](results/poster.png), and [experiment results](results/experiments_tracking_details) which are stored in _.html_ files for quick summary overview. For a more detailed description of files in the folder, refer to [this README](results/README.md).
 
