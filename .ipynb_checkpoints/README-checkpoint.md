@@ -32,7 +32,7 @@ By the end of this final project, we achieved the following:
 * we considered two major input formats to the model, and proposed a __new__ feature engineering method -- the __two-channel-KDI input format__ (see [__Section 5.4__](#54)), which works substantially better than traditional sequential inputs
 * the structure of the general modeling pipeline are largely determined: two channels of inputs are needed, either sequential or image-like input formats, where one encodes the "historical user data" and is fed into the "User Embedding Layer", and the other encodes the "current keycode" and is fed into the "Keycode Embedding Layer". The outputs from both layers are "concatenated" (in some way) and fed into a common "Concat Layer" for generating time latencies predictions:
 <center>
-    <img src="results/img/two-channel-KDI-inputs.png" alt="two-channel-KDI input format" width="650"/>
+    <img src="results/img/two-channel-KDI-inputs.png" alt="two-channel-KDI input format" width="850"/>
 </center>
 * we constructed a couple model structures (for both of the embedding layers, as well as the concat output layer, refer to details [here](notebook/Model_Architecture_List.ipynb)) that perform relatively well: 
     * training loss (MAE) = 57.72 (in milliseconds)
