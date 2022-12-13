@@ -5,7 +5,7 @@
 
 * both the `training-logs` folder and the `experiments` folder contains two subfolders (below), and inside each subfolder, there are sub-subfolders with model names containing the respective files
     * `checkpoints`
-    * `tensorboard`
+    * `tensorboard`: run to [this notebook](../notebook/tensorboard-demo.ipynb) for a quick overview of the tensorboard results
 
 * the `loss-plots` folder are the loss plots, and some learning rate versus loss plots, of the corresponding experiment id in the picture name.
     * These are experiments carried out in Stage-3, for codes and training progress printout, refer to the [original notebook](../notebook/stage_3_experiments.ipynb). Note: Stage-3 contains the most recent groups of experiments.
