@@ -18,6 +18,9 @@ import tensorflow.keras as keras
 ##------------------------------------------------------------Importing the Dataset------------------------------------------------------------##
 
 def processing_folder(folder_path, sample_size, train_size, dev_size):
+    '''
+    Import and process the keystroke data folder conating .txt files of users' keytroke data
+    '''
     # os.chdir(folder_path)
     path = os.path.join(os.getcwd(), folder_path)
     files = sorted(os.listdir(path), key=lambda x: int(re.findall(r'\d+', x)[0]))
@@ -87,6 +90,9 @@ def processing_folder(folder_path, sample_size, train_size, dev_size):
 
 
 def processing_meta(file_path):
+    '''
+    Import and process the `metadata_participants.txt` file.
+    '''
     path = os.path.join(os.getcwd(), file_path)
     with open(path, encoding='utf-8', errors='ignore') as f:
         lines = f.readlines()
